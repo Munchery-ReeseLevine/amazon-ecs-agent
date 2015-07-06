@@ -84,10 +84,6 @@ type Container struct {
 
 	VolumesFrom []*VolumeFrom `locationName:"volumesFrom" type:"list"`
 
-	Tty *bool `locationName:"tty" type:"boolean"`
-
-	OpenStdin *bool `locationName:"openStdin" type:"boolean"`
-
 	metadataContainer `json:"-", xml:"-"`
 }
 
